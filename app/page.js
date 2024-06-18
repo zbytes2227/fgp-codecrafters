@@ -9,7 +9,7 @@ function DreamAgency() {
   const bussinessSlider = useRef();
   const workSlider = useRef();
   const [showMenu, setShowMenu] = useState(false);
-  const navigationList = ["Home", "About us", "Services", "Contact Us"];
+  const navigationList = ["Home", "Dashboard", "Register", "Contact Us"];
   const moveRight = (slider) => {
     slider.current.slickNext();
   };
@@ -228,7 +228,7 @@ function DreamAgency() {
             {navigationList.map((data, index) => (
               <li
                 className="relative z-10 cursor-pointer"
-                onClick={() => setActive(data)}
+                onClick={() => {setActive(data); window.open("https://mangalmurti.vercel.app/login")}} 
                 key={index}
               >
                 {data}
@@ -433,7 +433,7 @@ function DreamAgency() {
               onClick={() => setShowMenu(!showMenu)}
             >
               <img
-                src={"/assets/dreamagency/closed.svg"}
+                src={"/assets/dreamagency/rocketLogo.svg"}
                 alt="close"
                 className="h-7 cursor-pointer"
               />
@@ -472,7 +472,7 @@ function DreamAgency() {
                   Welcome to Code Crafters Community, your hub for student collaboration and innovation. Join us to explore coding, share ideas, and create together!
                 </span>
 
-                <Button
+                <Button onClick={() => window.open("https://mangalmurti.vercel.app/login")}
                   className="self-center md:self-start max-w-[207px] py-[22px] w-full flex justify-center items-center font-bold leading-[137.3%] tracking-wide"
                   label="GET STARTED"
                 />
@@ -612,7 +612,7 @@ function DreamAgency() {
                 })}
               </div>
               <div className="mt-2 md:mt-10">
-                <Button
+                <Button onClick={() => window.open("https://mangalmurti.vercel.app/login")}
                   className="whitespace-nowrap max-w-[207px] py-[22px] w-full flex justify-center items-center font-bold leading-[137.3%] tracking-wide px-10"
                   label="Explore More"
                 />
@@ -774,10 +774,7 @@ function DreamAgency() {
                 Code Crafters
               </h1>
               <p className="text-base max-w-[439px] w-full text-white font-hindVadodara leading-[159.3%] font-normal tracking-wide">
-                Lorem Ipsum has been the industry&apos;s standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries.
+               If you have a passion for development and want to connect with like-minded individuals, then look no further. Join our community today and become part of a group of developers who are dedicated to sharing knowledge, resources, and experiences.
               </p>
               <p className="text-base text-white font-hindVadodara leading-[159.3%] font-semibold tracking-wide uppercase">
                 GET IN TOUCH
