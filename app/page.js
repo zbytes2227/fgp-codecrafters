@@ -142,66 +142,70 @@ function DreamAgency() {
 
   const testimonialsCard = [
     {
-      title: "UI Soup",
+      title: "Mr. X",
       discription:
-        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+        "Code Crafters is a great community for students, It's supportive and friendly, offering a wealth of tutorials and projects for all skill levels. I highly recommend Code Crafters to anyone looking to improve their coding abilities in a welcoming environment.",
     },
     {
-      title: "UI Soup",
+      title: "Mrs. Y",
       discription:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
     },
   ];
-
   const cardDetail = [
     {
-      title: "Website Design",
+      title: "Notes Distribution",
+      desc: "Access to organized and curated study materials.",
       logoBg: "bg-[#FFDED4]",
       logo: "/assets/dreamagency/websiteLogo.svg",
     },
     {
-      title: "Web Development",
+      title: "Coding Contests",
+      desc: "Participate in competitive programming challenges.",
       logoBg: "bg-[#D4F0FF]",
       logo: "/assets/dreamagency/computerLogo.svg",
     },
     {
-      title: "Marketing",
+      title: "Career Guidance",
+      desc: "Receive professional advice and direction for career choices.",
       logoBg: "bg-[#FFD4D4]",
       logo: "/assets/dreamagency/rocketLogo.svg",
     },
     {
-      title: "Website Design",
+      title: "Mentorship 1:1",
+      desc: "Personalized guidance from experienced mentors.",
       logoBg: "bg-[#FFDED4]",
       logo: "/assets/dreamagency/websiteLogo.svg",
     },
     {
-      title: "Web Development",
+      title: "Network Opportunities",
+      desc: "Connect with professionals and peers for networking and collaboration.",
       logoBg: "bg-[#D4F0FF]",
       logo: "/assets/dreamagency/computerLogo.svg",
     },
   ];
 
   const aboutUsData = [
-    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it make a type specimen book.",
-    "Lorem Ipsum has been the industry's standard dummy text ever since the 1700s, when an unknown printer took a galley of type and scrambled it make a type specimen book.",
+    "We are students of FGP who envisioned and built the Code Crafters Community. Passionate about fostering collaboration and innovation, we invite you to join us in shaping a vibrant hub where knowledge meets creativity.",
+    "Register yourself and Join our Community...fast!",
   ];
 
   const templateCard = [
     {
-      title: "3D NFT",
-      img: "/assets/dreamagency/bgnft.png",
+      title: "FGP Website",
+      img: "/assets/dreamagency/fgp-site.png",
     },
     {
-      title: "Crypto",
-      img: "/assets/dreamagency/bgcrypto.png",
+      title: "PolyA2z",
+      img: "/assets/dreamagency/polya2z.png",
     },
     {
-      title: "Advocate",
-      img: "/assets/dreamagency/bgadvocate.png",
+      title: "BharatGen",
+      img: "/assets/dreamagency/zbytes-invoice.png",
     },
     {
-      title: "TBDesign",
-      img: "/assets/dreamagency/bgtbdesign.png",
+      title: "Code Crafters",
+      img: "/assets/dreamagency/scan-mate.png",
     },
   ];
 
@@ -465,7 +469,7 @@ function DreamAgency() {
               </div>
               <div className="max-w-[515px] flex flex-col gap-8">
                 <span className="text-[17px] Light font-normal font-hindVadodara leading-[146.3%] tracking-wide text-center md:text-left">
-                Welcome to Code Crafters Community, your hub for student collaboration and innovation. Join us to explore coding, share ideas, and create together!
+                  Welcome to Code Crafters Community, your hub for student collaboration and innovation. Join us to explore coding, share ideas, and create together!
                 </span>
 
                 <Button
@@ -489,12 +493,12 @@ function DreamAgency() {
               <div className=" flex flex-col sm:gap-16 md:gap-24 gap-12">
                 <div className="mx-auto md:text-5xl text-4xl text-[#331B3B] font-hindVadodara -tracking-[0.01] leading-[106.3%]">
                   <h1 className=" font-bold self-center text-center">
-                    Discover 
+                    Discover
                   </h1>
                   <span className="font-light self-center">
-               
+
                     <span className="relative ml-1">
-                    What We Offer
+                      What We Offer
                       <span className="bg-[#FDC221] md:h-2.5 h-2 bottom-1.5 md:bottom-2 -z-[1] right-0 absolute md:w-48 w-[145px]" />
                     </span>
                   </span>
@@ -563,8 +567,7 @@ function DreamAgency() {
                           </div>
                           <div>
                             <span className="text-[15px] mt-1.5 max-w-[230px] h-full max-h-16 Light font-light font-hindVadodara leading-[145.3%] tracking-[0.02]">
-                              Lorem Ipsum has been the industry&apos;s standard
-                              dummy text ever since the 1500s.
+                              {card.desc}
                             </span>
                           </div>
                         </div>
@@ -588,13 +591,13 @@ function DreamAgency() {
                 <h1 className=" font-bold text-center md:text-left">
                   About Us
                 </h1>
-                <span className="lg:text-5xl text-4xl font-light">
+                {/* <span className="lg:text-5xl text-4xl font-light">
                   Fake or
                   <span className="ml-3 relative z-10">
                     Real
                     <span className="bg-[#FDC221] h-2 bottom-[10px] lg:bottom-[14px] -z-[1] left-0 absolute w-full" />
                   </span>
-                </span>
+                </span> */}
               </div>
               <div className="flex flex-col gap-2">
                 {aboutUsData.map((data, index) => {
@@ -623,22 +626,19 @@ function DreamAgency() {
                 <div className="flex flex-col gap-5 mx-5">
                   <div className="relative md:absolute lg:left-32 md:left-5 md:top-10">
                     <h1 className="lg:text-5xl text-3xl text-[#331B3B] font-bold font-hindVadodara leading-[106.3%] -tracking-[0.01] self-center">
-                      Our Recent Work
+                      Explore Our Other
                       <p />
                       <span className="font-light">
-                        By Our
+                        Products &
                         <span className="relative z-10">
-                          Experts
+                          {' '}Services
                           <span className="bg-[#FDC221] h-2 bottom-1.5 lg:bottom-[9px] -z-[1] right-0 absolute lg:w-40 w-[104px]" />
                         </span>
                       </span>
                     </h1>
                   </div>
                   <span className="relative md:absolute text-lg font-normal max-w-md xl:max-w-lg w-full md:right-12 md:top-10">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Nobis, aperiam facere labore ipsum, vitae impedit temporibus
-                    ratione quae laborum itaque harum nihil maiores doloremque
-                    minus debitis et nisi explicabo non.
+                    We have developed various services including note provision and community engagement, among others. Each Service is designed to cater to specific needs, enhancing user experience and promoting seamless interaction within their respective domains.
                   </span>
                 </div>
                 <div className="lg:pl-64 sm:pl-8 px-5 flex gap-12">
@@ -722,7 +722,7 @@ function DreamAgency() {
                 Our Testimonials
               </h1>
               <span className="md:whitespace-nowrap !text-center font-light mt-1 max-w-sm md:max-w-xl mx-auto">
-                What Our Clients Are
+                What Our Users Are
                 <span className="relative z-10 ml-2">
                   Saying
                   <span className="bg-[#FDC221] h-2 md:bottom-2 bottom-1 -z-[1] absolute w-full right-[100px] sm:right-0 left-0" />
@@ -796,15 +796,17 @@ function DreamAgency() {
                   label="Send"
                 />
               </div>
+              <p className="text-base text-white font-hindVadodara leading-[159.3%] font-semibold tracking-wide uppercase">
+                Developed By ZB👾
+              </p>
             </div>
             <div className="relative">
               <div className="max-w-[197px] w-full flex flex-col justify-start px-2.5 py-[7px] bg-white shadow-4xl absolute top-[26px] left-8">
                 <p className="font-bold text-[#414141] text-base leading-[134.8%]">
-                  Texas
+                  Raebareli
                 </p>
                 <p className="font-normal text-[#414141] text-base leading-[134.8%]">
-                  United States
-                </p>
+                  Uttar Pradesh                </p>
                 <p className="font-normal text-[#51A0DC] text-sm leading-[159.8%] cursor-pointer">
                   View Larger Map
                 </p>
