@@ -239,7 +239,7 @@ function DreamAgency() {
           </ul>
           <div className="xl:mr-56 cursor-pointer">
             <p className="text-3xl  font-bold font-playFairDisplay leading-7 tracking-[0.01]">
-              Code Crafters Coming Soon
+              Code Crafters
             </p>
           </div>
           <ul className="hidden md:flex gap-4 items-center">
@@ -465,9 +465,7 @@ function DreamAgency() {
               </div>
               <div className="max-w-[515px] flex flex-col gap-8">
                 <span className="text-[17px] Light font-normal font-hindVadodara leading-[146.3%] tracking-wide text-center md:text-left">
-                  Lorem Ipsum has been the industry&apos;s standard dummy text
-                  ever since the 1500s, when an unknown printer took a galley of
-                  type and scrambled it to make a type specimen book.
+                Welcome to Code Crafters Community, your hub for student collaboration and innovation. Join us to explore coding, share ideas, and create together!
                 </span>
 
                 <Button
@@ -480,7 +478,7 @@ function DreamAgency() {
               <img
                 src={"/assets/dreamagency/home.png"}
                 alt="Home"
-                className="h-[362px] lg:h-full"
+                className="lg:h-full"
               />
             </div>
           </div>
@@ -491,12 +489,12 @@ function DreamAgency() {
               <div className=" flex flex-col sm:gap-16 md:gap-24 gap-12">
                 <div className="mx-auto md:text-5xl text-4xl text-[#331B3B] font-hindVadodara -tracking-[0.01] leading-[106.3%]">
                   <h1 className=" font-bold self-center text-center">
-                    What We Do
+                    Discover 
                   </h1>
                   <span className="font-light self-center">
-                    For Your
+               
                     <span className="relative ml-1">
-                      Career
+                    What We Offer
                       <span className="bg-[#FDC221] md:h-2.5 h-2 bottom-1.5 md:bottom-2 -z-[1] right-0 absolute md:w-48 w-[145px]" />
                     </span>
                   </span>
