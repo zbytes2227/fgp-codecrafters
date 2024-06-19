@@ -228,7 +228,7 @@ function DreamAgency() {
             {navigationList.map((data, index) => (
               <li
                 className="relative z-10 cursor-pointer"
-                onClick={() => {setActive(data); window.open("https://mangalmurti.vercel.app/login")}} 
+                onClick={() => {setActive(data); window.open("https://dashboard.fgpcodecrafters.site/login")}} 
                 key={index}
               >
                 {data}
@@ -472,7 +472,7 @@ function DreamAgency() {
                   Welcome to Code Crafters Community, your hub for student collaboration and innovation. Join us to explore coding, share ideas, and create together!
                 </span>
 
-                <Button onClick={() => window.open("https://mangalmurti.vercel.app/login")}
+                <Button onClick={() => window.open("https://dashboard.fgpcodecrafters.site/login")}
                   className="self-center md:self-start max-w-[207px] py-[22px] w-full flex justify-center items-center font-bold leading-[137.3%] tracking-wide"
                   label="GET STARTED"
                 />
@@ -612,7 +612,7 @@ function DreamAgency() {
                 })}
               </div>
               <div className="mt-2 md:mt-10">
-                <Button onClick={() => window.open("https://mangalmurti.vercel.app/login")}
+                <Button onClick={() => window.open("https://dashboard.fgpcodecrafters.site/login")}
                   className="whitespace-nowrap max-w-[207px] py-[22px] w-full flex justify-center items-center font-bold leading-[137.3%] tracking-wide px-10"
                   label="Explore More"
                 />
