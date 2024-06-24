@@ -501,7 +501,7 @@ function DreamAgency() {
                   );
                 })}
               </div>
-              <div className="mt-2 md:mt-10 flex items-center">
+              <div className="mt-2 md:mt-10 flex items-center flex-wrap justify-center">
               <div>
                         <a href="/files/code-crafters.apk" className="bg-gray-200 cursor-pointer inline-flex py-4 px-5 rounded-lg items-center hover:bg-gray-300 focus:outline-none mr-2">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-6 h-6" viewBox="0 0 512 512">
@@ -515,7 +515,7 @@ function DreamAgency() {
                       </div>
 
                 <Button onClick={() => window.open("https://dashboard.fgpcodecrafters.site/login")}
-                  className="whitespace-nowrap max-w-[207px] py-[22px] w-full flex justify-center items-center font-bold leading-[137.3%] tracking-wide px-10"
+                  className="md:mt-0 mt-2 whitespace-nowrap max-w-[207px] py-[22px] w-full flex justify-center items-center font-bold leading-[137.3%] tracking-wide px-10"
                   label="Explore More"
                 />
               </div>
