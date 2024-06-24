@@ -313,7 +313,7 @@ function DreamAgency() {
               onClick={() => setShowMenu(!showMenu)}
             >
               <img
-                src={"/assets/dreamagency/rocketLogo.svg"}
+                src={"/xCut.png"}
                 alt="close"
                 className="h-7 cursor-pointer"
               />
@@ -323,12 +323,14 @@ function DreamAgency() {
                 return (
                   <div
                     key={index}
+                    onClick={() => { setActive(data); window.open("https://dashboard.fgpcodecrafters.site/login") }}
                     className="text-white text-2xl font-normal font-hindVadodara leading-6 tracking-[0.01] cursor-pointer"
                   >
                     {navitem}
                   </div>
                 );
               })}
+              V2.1 
             </div>
           </div>
         </nav>
